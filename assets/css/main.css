@@ -1,0 +1,94 @@
+.main {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.main__title {
+  padding-top: 24px;
+  font-weight: 700;
+  font-size: 72px;
+  text-transform: uppercase;
+  color: #3D3A48;
+  line-height: 1.0;
+}
+
+.main__text {
+  margin-top: 6px;
+  font-family: 'Caveat';
+  font-size: 25px;
+  color: #30545C;
+  text-transform: capitalize;
+}
+
+.main__feedback {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-top: 30px;
+  margin-bottom: 190px;
+  max-width: 370px;
+  height: 127px;
+  background: rgba(42, 74, 104, 0.51);
+  -webkit-backdrop-filter: blur(20px);
+          backdrop-filter: blur(20px);
+  border-radius: 100px;
+}
+
+.main__feedback .feedback__foto {
+  padding: 18px 19px 18px 32px;
+}
+
+.main__feedback .feedback__foto img {
+  width: 90px;
+  height: 90px;
+  border: solid 4px #fde10c;
+  border-radius: 100px;
+}
+
+.main__feedback .feedback__name {
+  padding-top: 31px;
+  font-weight: 700;
+  font-size: 15px;
+  color: #EBF8F5;
+}
+
+.main__feedback .feedback__text {
+  padding-top: 8px;
+  max-width: 186px;
+  text-transform: capitalize;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 113.5%;
+  color: #9BC9D3;
+}
+
+.main__right {
+  margin-left: 105px;
+  margin-top: 106px;
+}
+
+.main__event {
+  padding-left: 22px;
+  font-size: 22px;
+  font-weight: 700;
+  text-transform: capitalize;
+  color: #366E7A;
+  border-left: solid 8px #fde10c;
+}
+
+.main__event span {
+  font-weight: 400;
+}
+
+.serf {
+  position: absolute;
+  top: -70px;
+  right: -165px;
+}
+
+.serf img {
+  height: auto;
+  width: 230px;
+}
+/*# sourceMappingURL=main.css.map */

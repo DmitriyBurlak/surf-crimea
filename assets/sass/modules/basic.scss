@@ -1,0 +1,52 @@
+// main: ../style.scss
+*,
+*:before,
+*:after {
+  box-sizing: border-box;
+}
+h1, h2, h3, h4, h5, h6 {
+  margin: 0;
+}
+html,
+body {
+  width: 100%;
+  height: auto;
+  min-height: 100%;
+}
+body {
+  margin: 0;
+  background-color: $bc;
+  background-image: url(../img/bg.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: top right;
+  font-family: $ff;
+  font-size: $fs;
+  color: $c;
+}
+.container {
+  margin-left: 15%;
+  width: 100%;
+  max-width: $maxw;
+}
+
+.surf-content {
+  position: relative;
+  margin-top: 120px;
+  max-width: 1014px;
+  width: 100%;
+  background: #FFFFFF;
+  background-image: url(../img/foto.jpg);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: top left;
+  box-shadow: 0px 90px 60px rgba(105, 134, 140, 0.25);
+  border-radius: 10px;
+}
+
+.surf-container {
+  margin: 0 auto;
+  max-width: 910px;
+  padding-left: 15px;
+  padding-right: 15px;
+}
