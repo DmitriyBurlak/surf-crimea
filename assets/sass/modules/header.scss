@@ -24,6 +24,7 @@
   }
 
   &__link {
+    display: flex;
 
     a {
       font-family: 'Caveat';
@@ -36,8 +37,26 @@
 
       &:hover {
         color: #000;
-        transform: translateY(-5px);
+      }  
+      &:after {
+        content: "";
+        display: block;
+        background-color: #ffeb56;
+        height: 3px;
+        width: 0%;
+        transition: width .4s ease-in-out;
       }
+      &:hover:after {
+        width: 100%;
+      }
+
+
+
+
+
+
+
+      
     } 
   }
 }

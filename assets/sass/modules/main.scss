@@ -8,7 +8,7 @@
   &__title {
     padding-top: 24px;
     font-weight: 700;
-    font-size: 72px;
+    font-size: 62px;
     text-transform: uppercase;
     color: #3D3A48;
     line-height: 1.0;
@@ -23,7 +23,7 @@
   &__feedback {
     display: flex;
     margin-top: 30px;
-    margin-bottom: 190px;
+    margin-bottom: 210px;
     max-width: 370px;
     height: 127px;
     background: rgba(42, 74, 104, 0.51);
@@ -36,12 +36,12 @@
       img {
         width: 90px;
         height: 90px;
-        border: solid 4px#fde10c;
+        border: solid 4px #fde10c;
         border-radius: 100px;
       }
     }
     .feedback__name {
-      padding-top: 31px;
+      padding-top: 22px;
       font-weight: 700;
       font-size: 15px;
       color: #EBF8F5;
@@ -65,9 +65,8 @@
     padding-left: 22px;
     font-size: 22px;
     font-weight: 700;
-    text-transform: capitalize;
     color: #366E7A;
-    border-left:solid 8px #fde10c;
+    border-left:solid 8px #ffeb56;
 
     span {
       font-weight: 400;
@@ -77,6 +76,7 @@
 
 .serf {
   position: absolute;
+  z-index: 5;
   top: -70px;
   right: -165px;
 
