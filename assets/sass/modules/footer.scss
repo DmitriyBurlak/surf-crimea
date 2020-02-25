@@ -1,62 +1,49 @@
 footer {
-  margin-bottom: 4rem;
+  max-width: 1200px;
+  width: 100%;
 
-  @media (max-width: 850px) {
-    margin-bottom: 1rem;
-  }
 }
 
 .social {
-  visibility: hidden;
-  opacity: 0;
+  margin-top: 196px;
+  margin-bottom: 30px;
   position: relative;
-  z-index: 5;
-  transition: all 5s;
-
-  @media (max-width: 540px) {
-    text-align: center;
-  }
 
   a {
-    margin-right: 1rem;
+    margin-right: 60px;
     text-decoration: none;
 
     .icon {
       display: inline-block;
-      width: 40px;
+      width: 35px;
       height: 35px;
       background-size: cover;
+      filter: invert(44%) sepia(44%) saturate(523%) hue-rotate(144deg) brightness(96%) contrast(87%);
       transition: all 0.2s;
 
-      @media (max-width: 1024px) {
-        width: 35px;
-        height: 31px;
+      &:hover {
+        transform: translateY(-10px);
       }
     }
     
+    
     .icon-vk {
       background-image: url(../img/social/vk.svg);
-      width: 42px;
-      height: 35px;
-
-      @media (max-width: 1024px) {
-        width: 39px;
-        height: 33px;
-      }
+      width: 51px;
+      height: 43px;
     }
     
     .icon-inst {
       background-image: url(../img/social/inst.svg);
     }
-    .icon-github {
-      background-image: url(../img/social/git.svg);
+    .icon-telegram {
+      background-image: url(../img/social/telegram.svg);
+      width: 40px;
+      height: 37px;
     }
     .icon-facebook {
       background-image: url(../img/social/facebook.svg);
     }
-    .icon:hover,
-    .icon:focus {
-      filter: invert(100%) sepia(35%) saturate(4559%) hue-rotate(316deg) brightness(104%) contrast(106%);
-    }
+    
   }
 }

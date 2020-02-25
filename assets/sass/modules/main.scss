@@ -8,7 +8,7 @@
   &__title {
     padding-top: 24px;
     font-weight: 700;
-    font-size: 62px;
+    font-size: 72px;
     text-transform: uppercase;
     color: #3D3A48;
     line-height: 1.0;
@@ -16,15 +16,15 @@
   &__text {
     margin-top: 6px;
     font-family: 'Caveat';
-    font-size: 25px;
+    font-size: 29px;
     color: #30545C;
     text-transform: capitalize;
   }
   &__feedback {
     display: flex;
     margin-top: 30px;
-    margin-bottom: 210px;
-    max-width: 370px;
+    margin-bottom: 330px;
+    max-width: 390px;
     height: 127px;
     background: rgba(42, 74, 104, 0.51);
     backdrop-filter: blur(20px);
@@ -41,9 +41,9 @@
       }
     }
     .feedback__name {
-      padding-top: 22px;
+      padding-top: 18px;
       font-weight: 700;
-      font-size: 15px;
+      font-size: 18px;
       color: #EBF8F5;
     }
     .feedback__text {
@@ -51,7 +51,7 @@
       max-width: 186px;
       text-transform: capitalize;
       font-weight: 500;
-      font-size: 14px;
+      font-size: 15px;
       line-height: 113.5%;
       color: #9BC9D3;
     }
@@ -59,11 +59,11 @@
 
   &__right {
     margin-left: 105px;
-    margin-top: 106px;
+    margin-top: 102px;
   }
   &__event {
     padding-left: 22px;
-    font-size: 22px;
+    font-size: 25px;
     font-weight: 700;
     color: #366E7A;
     border-left:solid 8px #ffeb56;
@@ -78,10 +78,10 @@
   position: absolute;
   z-index: 5;
   top: -70px;
-  right: -165px;
+  right: -200px;
 
   img {
     height: auto;
-    width: 230px;
+    width: 280px;
   }
 }
