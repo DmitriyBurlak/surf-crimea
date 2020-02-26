@@ -1,9 +1,7 @@
-footer {
+.footer {
   max-width: 1200px;
   width: 100%;
-
 }
-
 .social {
   margin-top: 196px;
   margin-bottom: 30px;
@@ -25,14 +23,11 @@ footer {
         transform: translateY(-10px);
       }
     }
-    
-    
     .icon-vk {
       background-image: url(../img/social/vk.svg);
       width: 51px;
       height: 43px;
     }
-    
     .icon-inst {
       background-image: url(../img/social/inst.svg);
     }
@@ -44,6 +39,5 @@ footer {
     .icon-facebook {
       background-image: url(../img/social/facebook.svg);
     }
-    
   }
 }
