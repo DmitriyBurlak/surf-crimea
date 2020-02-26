@@ -23,7 +23,7 @@
   &__feedback {
     display: flex;
     margin-top: 30px;
-    margin-bottom: 330px;
+    margin-bottom: 200px;
     max-width: 390px;
     height: 127px;
     background: rgba(42, 74, 104, 0.51);
@@ -75,11 +75,11 @@
 .serf {
   position: absolute;
   z-index: 5;
-  top: -70px;
-  right: -210px;
+  top: -55px;
+  right: -175px;
 
   img {
     height: auto;
-    width: 300px;
+    width: 250px;
   }
 }
